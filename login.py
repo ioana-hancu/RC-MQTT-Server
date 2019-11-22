@@ -38,7 +38,7 @@ def login_verify():
     username_login_entry.delete(0, END)
     password_login_entry.delete(0, END)
 
-    list_of_files = os.listdir("/Users/Ioana/PycharmProjects/pfurat")
+    list_of_files = os.listdir("/Users/Ioana/PycharmProjects/RC_P")
     if username1 in list_of_files:
         file1 = open(username1, "r")
         verify = file1.read().splitlines()
